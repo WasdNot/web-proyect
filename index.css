@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+
+  font-family: "Segoe UI";
+  user-select: none;
+  text-align: center;
+
+  overflow-y: scroll;
+}
+
+.header {
+  position: fixed;
+  background-color: rgb(255, 173, 49);
+
+  top: 0;
+  left: 0;
+
+  height: 11%;
+  min-height: 74px;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+
+  left: 7%;
+  top: 3%;
+}
+
+.search {
+  display: inline-block;
+  background-color: white;
+  border-color: #efd962;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+
+  font-size: 100%;
+
+  padding: 0.6%;
+  padding-left: 1%;
+  padding-right: 2.7%;
+  width: 58.3%;
+
+  margin-top: 1.5%;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #efd962;
+}
+
+.search_icon {
+  position: absolute;
+
+  padding: 0.5%;
+
+  margin-left: -2.7%;
+  margin-top: 1.6%;
+}
+
+.login {
+  display: block;
+  background-color: rgb(255, 173, 49);
+  border-style: outset;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 4px;
+
+  font-size: 90%;
+
+  padding: 0.3%;
+  margin-top: -2.4%;
+  margin-left: auto;
+  margin-right: 4%;
+
+  width: 9%;
+}
+
+.login:hover {
+  background-color: rgb(252, 191, 100);
+}
+
+.separator {
+  height: 11%;
+}
+
+.content {
+  margin-top: max();
+}
